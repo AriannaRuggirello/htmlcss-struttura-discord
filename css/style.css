@@ -10,10 +10,13 @@ a{
     
 }
 
-.container,footer{
-    width: 70%;
-    margin: 0 auto;
+button{
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
 }
+
+
 
 /* header rules */
 header{    
@@ -24,8 +27,7 @@ header{
 
 nav{
     display: flex; 
-    gap: 50px;
-    
+    gap: 50px;   
    
 }
 
@@ -35,9 +37,22 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    padding: 40px;
 }
 
 /* main rules */
+
+.wallpaper-color{
+    background-color: gray;
+    width: 100%;
+
+}
+
+section{
+    min-height: 400px;
+}
+
 .row{
     display: flex;
     justify-content: space-around;
@@ -50,6 +65,7 @@ nav{
     flex-direction: row-reverse;
     justify-content: space-around;
     align-items: center;
+    
 }
 .col{
     display: flex;
@@ -71,10 +87,16 @@ nav{
 
 /* footer rules */
 
+.footer-container,.footer-signup{
+    width: 70%;
+    margin: 0 auto;
+}
+
 .footer-container{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-between;    
+    border-bottom: 1px solid white;
+    
 }
 
 footer li{
@@ -94,19 +116,20 @@ img{
     
     
 }
+
 header{
-    background-color: aqua;
+    background-color: darkcyan;
     height: 50px;
     border:2px solid blue;
 }
 
 nav{
-    background-color: darkcyan;
+    background-color: darkgreen;
     
 }
 
 .hero{
-    background-color: yellow;
+    background-color: darkcyan;
     height: 400px;
 
 }
@@ -122,19 +145,19 @@ p{
     
 }
 
-section{
+/* section{
     background-color: grey;
     border: darkred solid 2px;
     height: 400px;
-}
+} */
 
-.call-to-action{
+/* .call-to-action{
     background-color: grey;
     border: darkred solid 2px;
     height: 200px;
-}
+} */
 
 footer{
     background-color: rebeccapurple;
     height: 300px;
-}
+} */
