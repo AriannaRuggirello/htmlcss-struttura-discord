@@ -3,3 +3,96 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* header rules */
+header{    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav{
+    display: flex; 
+    gap: 50px;
+    
+   
+}
+
+/* hero rules */
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* main rules */
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.row-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center
+}
+
+.description{
+    width: 37%;
+}
+
+
+/* debug rules */
+img{
+    background-color: rosybrown;
+    
+    
+}
+header{
+    background-color: aqua;
+    height: 50px;
+    border:2px solid blue;
+}
+
+nav{
+    background-color: darkcyan;
+    
+}
+
+.hero{
+    background-color: yellow;
+    height: 400px;
+
+}
+
+h2{
+    background-color: orange;
+    font-size: 50px;
+}
+
+p{
+    background-color: green;
+    font-size: 20px;
+    
+}
+
+section{
+    background-color: grey;
+    border: darkred solid 2px;
+    height: 400px;
+}
