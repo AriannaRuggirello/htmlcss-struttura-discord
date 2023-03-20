@@ -11,12 +11,11 @@ a{
 }
 
 button{
-    padding: 10px;
-    border-radius: 20px;
+    padding: 15px;
+    border-radius: 30px;
     border: none;
+    margin: 20px 0;
 }
-
-
 
 /* header rules */
 header{    
@@ -39,6 +38,11 @@ nav{
     align-items: center;
     text-align: center;
     padding: 40px;
+}
+
+button.grey-button{
+    background-color: #23272A;
+    color: white;
 }
 
 /* main rules */
@@ -109,6 +113,12 @@ footer li{
     align-items: center;
 
 }
+
+button.blue-button{
+    background-color:#7289DA ;
+    color: white;
+}
+
 
 /* debug rules */
 img{
