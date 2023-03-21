@@ -1,3 +1,5 @@
+/* general rules */
+
 *{
     margin: 0;
     padding: 0;
@@ -17,10 +19,22 @@ button{
     margin: 20px 0;
 }
 
+.header-container,.footer-container,.footer-signup{
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
 /* header rules */
-header{    
+
+header{
+    background-color: #255EE9;
+    min-height: 30px;
+}
+
+.header-container{    
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -31,7 +45,10 @@ nav{
 }
 
 /* hero rules */
-.hero{
+
+.hero{    
+    background-color: #255EE9;
+    min-height: 400px;   
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -48,7 +65,7 @@ button.grey-button{
 /* main rules */
 
 .wallpaper-color{
-    background-color: gray;
+    background-color: #F6F6F6;
     width: 100%;
 
 }
@@ -76,6 +93,7 @@ section{
     flex-direction: column;    
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .description{
@@ -91,16 +109,16 @@ section{
 
 /* footer rules */
 
-.footer-container,.footer-signup{
-    width: 70%;
-    margin: 0 auto;
+footer{
+    background-color: #23272A;
+    min-height: 350px;    
 }
 
 .footer-container{
     display: flex;
     justify-content: space-between;    
     border-bottom: 1px solid white;
-    
+    color: white;      
 }
 
 footer li{
@@ -120,28 +138,19 @@ button.blue-button{
 }
 
 
-/* debug rules */
-img{
-    background-color: rosybrown;
-    
-    
+.footer-title{
+    color: #255EE9;
+    font-size: 20px;
 }
 
-header{
-    background-color: darkcyan;
-    height: 50px;
-    border:2px solid blue;
+/* debug rules */
+
+img{
+    background-color: rosybrown;       
 }
 
 nav{
-    background-color: darkgreen;
-    
-}
-
-.hero{
-    background-color: darkcyan;
-    height: 400px;
-
+    background-color: darkgreen;    
 }
 
 h2{
@@ -151,8 +160,7 @@ h2{
 
 p{
     background-color: green;
-    font-size: 20px;
-    
+    font-size: 20px;    
 }
 
 /* section{
@@ -167,7 +175,3 @@ p{
     height: 200px;
 } */
 
-footer{
-    background-color: rebeccapurple;
-    height: 300px;
-} */
